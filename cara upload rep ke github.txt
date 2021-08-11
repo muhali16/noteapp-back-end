@@ -1,0 +1,20 @@
+1. download git
+2. kemudian install dan pilih opsi kode editor sesuai yang ada
+3. klik next sampai proses install selesai
+4. jangan jalankan dulu git
+5. tetapkan email digit dengan perintah :
+* git config --global user.name "yourname"
+* git config --global user.email "youremail"
+6. jalankan kode berikut ke terminal projek :
+* git init
+7. buat file '.gitignore' dan masukan nama file atau folder yang tidak ikut terupload ke repository github
+8. jalankan kode berikut ke terminal projek :
+* git add .
+* git commit -m "initial commit"
+9. ke browser untuk login github dan buat repository baru
+10. copy url repository dan paste pada kode berikut untuk dijalankan pada terminal projek
+* git remote add origin <paste remote url>
+11. jalankan kode berikut pada terminal projek
+*git push origin master
+12. akan ada window popup dan pilih open browser
+13. pilih authorize GitCredentialManager

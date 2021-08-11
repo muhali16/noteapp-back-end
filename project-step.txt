@@ -1,0 +1,20 @@
+1. buat folder untuk projek
+2. install : npm init --y
+3. install : npm install nodemon --save-dev (berfungsi agar saat ada perubahan script kita tidak memulai ulang server)
+4. install : npm install eslint --save-dev (berfungsi untuk selalu mengatur gaya penulisan kode javascript kita)
+5. jalankan : npx eslint --init (untuk konfigurasi eslint)
+Kemudian Anda akan diberikan beberapa pertanyaan, silakan jawab pertanyaan yang ada dengan jawaban berikut:
+
+How would you like to use ESLint? -> To check, find problems, and enforce code style.
+What type of modules does your project use? -> CommonJS (require/exports).
+Which framework did you use? -> None of these. 
+Does your project use TypeScript? -> N.
+Where does your code run? -> Node (pilih menggunakan spasi).
+How would you like to define a style for your project? -> Use a popular style guide.
+Which style guide do you want to follow? -> (Anda bebas memilih, sebagai contoh pilih AirBnB).
+What format do you want your config file to be in? -> JSON.
+Would you like to …… (seluruh pertanyaan selanjutnya) -> Y.
+
+6. membuat kriteria projek
+7. membuat struktur projek
+8. mulai membuat server http
